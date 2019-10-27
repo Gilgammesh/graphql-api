@@ -1,27 +1,40 @@
-# graphql-api
-_______________________________________________________________________________
+![merge](https://github.com/Gilgammesh/graphql-api/blob/master/public/portada.png)
+
+
 El Proyecto es un modelo base de una GraphQL API.
+
 Que puede ser consumida en cualquier FrontEnd como: React, Angular o Vue.
+
 Esta diseñada en un servidor NodeJs y framework Express.
+
 Libreria de GraphQl, con modularizacion de schemas y resolvers.
+
 Conexion a una base de datos MongoDb con Mongoose, con modelos de Colecciones. 
+
 Libreria Babel para usar las ultimas funcionalidades de ES6 y ES7 .
 
 _______________________________________________________________________________
 Autor           :   Carlos Santander
+
 Correo          :   carlos.santander@gmail.com
+
 Repositorio Git :   https://github.com/Gilgammesh/graphql-api
+
 Licencia        :   MIT
 
 _______________________________________________________________________________
 Una vez descargado o clonado el proyecto.
 
 Primero instalamos las dependencias, ejecutamos en consola:
+
 $ npm install graphql-api
 
 Segundo instalamos las dependencias de desarrollo, ejecutamos en consola:
+
 $ npm install graphql-api --save-dev
+
 o
+
 $ npm install graphql-api -D
 
 _______________________________________________________________________________
