@@ -12,6 +12,12 @@
 
 > Libreria Babel para usar las ultimas funcionalidades de ES6.
 
+Esta herramienta:
+  * Implementa un servidor HTTP rapidamente con Express.
+  * Reduce la complejidad de la implementación de un Servidor GraphQL.
+  * Permite usar el IDE de GraphQl en el Proyecto
+  * Modularizar los archivos typeDef y resolver.
+  
 ## Instalación
 
 Una vez descargado o clonado el proyecto.
