@@ -1,0 +1,12 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ]
+} // Le damos la anotacion con Node "version actual" para que procese bien las ultimas funciones de ES6
