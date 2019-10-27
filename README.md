@@ -6,7 +6,7 @@
 
 > Esta desarrollada en un servidor NodeJs y framework Express.
 
-> Libreria de GraphQl, con modularizacion de schemas y resolvers.
+> Libreria de GraphQL, con modularizacion de schemas y resolvers.
 
 > Conexión a una base de datos MongoDb con Mongoose, con modelos de Colecciones. 
 
