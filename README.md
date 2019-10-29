@@ -15,7 +15,7 @@
 Esta herramienta:
   * Implementa un servidor HTTP rapidamente con Express.
   * Reduce la complejidad de la implementación de un Servidor GraphQL.
-  * Permite usar el IDE de GraphQl en el Proyecto
+  * Permite usar el IDE GraphiQl.
   * Modularizar los archivos typeDef y resolver.
   
 ## Instalación
@@ -25,19 +25,19 @@ Una vez descargado o clonado el proyecto.
 Primero instalamos las dependencias, ejecutamos en consola:
 
 ```sh
-$ npm install graphql-api
+$ npm install
 ```
 
 Segundo instalamos las dependencias de desarrollo, ejecutamos en consola:
 
 ```sh
-$ npm install graphql-api --save-dev
+$ npm install --save-dev
 ```
 
 ó
 
 ```sh
-$ npm install graphql-api -D
+$ npm install -D
 ```
 
 ## Desarrollo

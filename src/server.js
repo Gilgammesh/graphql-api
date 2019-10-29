@@ -47,7 +47,11 @@ app.use(
     graphiql: true, // Habilitamos el IDE del Servidor GraphQL
     schema: schema // Pasamos el schema del servidor
   })
-);
+); // En producción se recomienda deshabilitar introspection y playground, poniendolos en false
+// En caso de que manejemos tokens dejamos en true
+app.use('/', (req, res, next) => {
+  res.redirect('/'); // Redireccionamos cualquier dirección a nuestra ruta estática
+});
 
 /*****************************************************************************************/
 // Obtenemos el puerto desde el entorno y almacenamos //
